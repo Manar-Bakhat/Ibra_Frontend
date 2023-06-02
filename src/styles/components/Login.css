@@ -1,0 +1,61 @@
+.form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: rgb(224, 219, 221) !important;
+  }
+  
+  .forgot-password-link a {
+    color: gray;
+    text-decoration: none;
+  }
+  .forgot-password-link a:hover {
+    color: green !important;
+  }
+  .signup-text {
+    font-size: 16px; /* Modifier la taille du texte */
+    color: darkgray; /* Modifier la couleur du texte */
+  }
+  .title-signin {
+    font-size: 20px; /* Modifier la taille du titre */
+    color: rgb(45, 43, 43)
+  }
+  input.form-control {
+    border: none ; /* Enlever la bordure */
+  }
+  .btn.active {
+    border-color: green;
+  }
+  .border-grey {
+    border-color: rgb(245, 242, 242) !important;
+  }
+
+
+  .border-green {
+    border-color: green !important;
+  }
+
+  .custom-button {
+    background-color: #9E1239;
+  }
+  
+  .custom-button:active {
+    background-color: #F4F1D0 !important;
+  }
+  .custom-button:hover {
+    background-color: #F4F1D0;
+  }
+  .custom-button:active {
+    color: black;
+  }
+  .custom-button:hover {
+    color: black;
+  }
+  .remember-checkbox:checked {
+    background-color: green;
+  }
+  .signup-text {
+    text-decoration: none;
+  }
+  .signup-text:hover{
+    color: green;
+  }

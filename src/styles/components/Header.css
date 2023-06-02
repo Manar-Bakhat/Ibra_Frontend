@@ -1,0 +1,105 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #ffffff;
+  width: 100%;
+  height: 80px;
+}
+
+.search_bar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(241, 239, 239);
+  border-radius: 4px;
+  padding: 5px;
+  margin-left: 300px;
+  position: relative; /* Ajout de la position relative */
+}
+
+.search_bar input {
+  border: none;
+  outline: none;
+  flex: 1;
+  background-color: rgb(241, 239, 239);
+  margin-left: 10px;
+  border-right: 1px solid #cbcaca; /* Ajout de la bordure droite */
+  padding-right: 5px; /* Ajout de l'espacement à droite */
+}
+
+.search_icon {
+  margin-left: 5px;
+  right: 5px; /* Ajustement de la position de l'icône */
+}
+
+.user_image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.dropdown_menu {
+  position: absolute;
+  top: 65px;
+  right: 15px;
+  background-color: #fff;
+  border: 0.5px solid #ede6e6;
+  border-radius: 4px;
+  padding: 10px;
+  z-index: 1;
+  width: 180px;
+}
+.dropdown_menu_icon{
+  color: #979797;
+}
+
+.dropdown_menu ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  align-items: center; /* Centrer les éléments horizontalement */
+}
+
+.menu_links_container {
+  width: 180px; /* Largeur maximale du conteneur des liens du menu */
+  display: flex;
+  flex-direction: column;
+}
+
+.menu_links_container li {
+  width: 100%;
+}
+
+.dropdown_menu li {
+  cursor: pointer;
+  font-size: 15px;
+  padding: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+  align-items: center; /* Centrer les éléments horizontalement */
+}
+
+.dropdown_menu li:hover {
+  background-color: #f5f5f5;
+}
+
+.dropdown_icon {
+  cursor: pointer;
+  margin-left: -10px;
+}
+
+.separator_line {
+  border: none;
+  border-top: 1.5px solid #c5bebe;
+  margin: 5px 0;
+}
+.logout {
+  margin-right: -10px; /* Réinitialisez la marge à 0 pour le lien "Logout" */
+  color: red;
+}
+
+.menu_text {
+  margin-left: 7px; /* Ajoutez un espace entre l'icône et le texte */
+}

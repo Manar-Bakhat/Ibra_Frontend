@@ -1,0 +1,87 @@
+.form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: rgb(224, 219, 221) !important;
+  }
+  .border-grey {
+    border-color: rgb(245, 242, 242) !important;
+  }
+
+.card-custom {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title-create-account {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .custom-button {
+    background-color: #9E1239;
+    color: #fff;
+  }
+  
+  .custom-button:hover {
+    background-color: #F4F1D0 !important;
+  }
+  .custom-button:hover{
+    color: black;
+  }
+  
+  .login-text {
+    color: grey;
+    text-decoration: none;
+  }
+  .login-text:hover {
+    color: green;
+  }
+  
+  
+  .container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .row {
+    margin: 0;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .mt-5 {
+    margin-top: 3rem;
+  }
+  
+  .card-title {
+    margin-bottom: 1rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+  }
+  
+  input[type='email'],
+  input[type='tel'],
+  input[type='password'] {
+    padding: 0.5rem 1rem;
+    width: 100%;
+  }
+  
+  @media (min-width: 576px) {
+    .container {
+      height: auto;
+      min-height: 100vh;
+    }
+  }
+  
